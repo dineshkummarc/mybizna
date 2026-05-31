@@ -55,6 +55,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'coolsam/modules' => array(
+            'pretty_version' => 'v4.2.2',
+            'version' => '4.2.2.0',
+            'reference' => 'fb40e63c8aa5920613e4db06002045167d03ee25',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../coolsam/modules',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'cordoval/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -707,28 +716,31 @@
             ),
         ),
         'mybizna/account' => array(
+            'pretty_version' => '2025.006',
+            'version' => '2025.006.0.0',
+            'reference' => '24408678f213dc91ed0d1be8d7b0afc7e9846b8a',
+            'type' => 'asgard-module',
+            'install_path' => __DIR__ . '/../mybizna/account',
+            'aliases' => array(),
             'dev_requirement' => false,
-            'replaced' => array(
-                0 => '*',
-            ),
         ),
         'mybizna/base' => array(
+            'pretty_version' => '2024.11',
+            'version' => '2024.11.0.0',
+            'reference' => '048529715fcd860daf18c73a8da7964b56d57f22',
+            'type' => 'asgard-module',
+            'install_path' => __DIR__ . '/../mybizna/base',
+            'aliases' => array(),
             'dev_requirement' => false,
-            'replaced' => array(
-                0 => '*',
-            ),
         ),
         'mybizna/core' => array(
+            'pretty_version' => '2024.15',
+            'version' => '2024.15.0.0',
+            'reference' => '824c7e3edba5ef2da4d91b33182d7208852bf5d2',
+            'type' => 'asgard-module',
+            'install_path' => __DIR__ . '/../mybizna/core',
+            'aliases' => array(),
             'dev_requirement' => false,
-            'replaced' => array(
-                0 => '*',
-            ),
-        ),
-        'mybizna/mail' => array(
-            'dev_requirement' => false,
-            'replaced' => array(
-                0 => '*',
-            ),
         ),
         'mybizna/mybizna' => array(
             'pretty_version' => '2025.010',
@@ -740,22 +752,13 @@
             'dev_requirement' => false,
         ),
         'mybizna/partner' => array(
+            'pretty_version' => '2024.17',
+            'version' => '2024.17.0.0',
+            'reference' => '17383048ca0e537efa87a87370e866e4e8ff83f7',
+            'type' => 'asgard-module',
+            'install_path' => __DIR__ . '/../mybizna/partner',
+            'aliases' => array(),
             'dev_requirement' => false,
-            'replaced' => array(
-                0 => '*',
-            ),
-        ),
-        'mybizna/sms' => array(
-            'dev_requirement' => false,
-            'replaced' => array(
-                0 => '*',
-            ),
-        ),
-        'mybizna/smsmass' => array(
-            'dev_requirement' => false,
-            'replaced' => array(
-                0 => '*',
-            ),
         ),
         'myclabs/deep-copy' => array(
             'pretty_version' => '1.13.4',
@@ -817,6 +820,15 @@
             'reference' => '712a31b768f5daea284c2169a7d227031001b9a8',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nunomaduro/termwind',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'nwidart/laravel-modules' => array(
+            'pretty_version' => 'v12.0.5',
+            'version' => '12.0.5.0',
+            'reference' => '5fe38e88b66394debeac785278a7e40eb81df51a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nwidart/laravel-modules',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -1592,6 +1604,24 @@
             'reference' => '8e1051fe39379367aecf014f41744ce7539a856f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../voku/portable-ascii',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wikimedia/composer-merge-plugin' => array(
+            'pretty_version' => 'v2.1.0',
+            'version' => '2.1.0.0',
+            'reference' => 'a03d426c8e9fb2c9c569d9deeb31a083292788bc',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../wikimedia/composer-merge-plugin',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wildside/userstamps' => array(
+            'pretty_version' => '2.5.0',
+            'version' => '2.5.0.0',
+            'reference' => 'd27f5bfa6188445b00f20760f43516d3b7e879a0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wildside/userstamps',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
