@@ -20,6 +20,17 @@
       0 => 'BladeUI\\Icons\\BladeIconsServiceProvider',
     ),
   ),
+  'coolsam/modules' => 
+  array (
+    'aliases' => 
+    array (
+      'FilamentModules' => 'FilamentModules',
+    ),
+    'providers' => 
+    array (
+      0 => 'Coolsam\\Modules\\ModulesServiceProvider',
+    ),
+  ),
   'filament/actions' => 
   array (
     'providers' => 
@@ -122,6 +133,42 @@
       0 => 'Livewire\\LivewireServiceProvider',
     ),
   ),
+  'mybizna/account' => 
+  array (
+    'aliases' => 
+    array (
+    ),
+    'providers' => 
+    array (
+    ),
+  ),
+  'mybizna/base' => 
+  array (
+    'aliases' => 
+    array (
+    ),
+    'providers' => 
+    array (
+    ),
+  ),
+  'mybizna/core' => 
+  array (
+    'aliases' => 
+    array (
+    ),
+    'providers' => 
+    array (
+    ),
+  ),
+  'mybizna/partner' => 
+  array (
+    'aliases' => 
+    array (
+    ),
+    'providers' => 
+    array (
+    ),
+  ),
   'nesbot/carbon' => 
   array (
     'providers' => 
@@ -141,6 +188,17 @@
     'providers' => 
     array (
       0 => 'Termwind\\Laravel\\TermwindServiceProvider',
+    ),
+  ),
+  'nwidart/laravel-modules' => 
+  array (
+    'aliases' => 
+    array (
+      'Module' => 'Nwidart\\Modules\\Facades\\Module',
+    ),
+    'providers' => 
+    array (
+      0 => 'Nwidart\\Modules\\LaravelModulesServiceProvider',
     ),
   ),
   'ryangjchandler/blade-capture-directive' => 
